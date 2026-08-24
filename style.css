@@ -217,6 +217,11 @@ a{
 
 .album{
     width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 10px;
+    box-sizing: border-box;
     /* background-color: pink; */
 }
 
@@ -266,6 +271,74 @@ a{
 }
 
 .progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.album-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+    
+}
+
+.album-img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.album-content h4{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.album-content p{
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.album-item{
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-item{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-icon{
+    padding: 5px;
+}
+
+.sound-bar{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sound-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    width: 0.5rem;
+    height: 0.4rem;
+}
+
+.sound-bar::-webkit-slider-thumb {
     appearance: none;
     height: 1rem;
     width: 1rem;
