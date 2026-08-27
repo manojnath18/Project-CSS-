@@ -129,6 +129,11 @@ a{
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+    opacity: 0.9;
+}
+
+.badge:hover{
+    opacity: 2;
 }
 
 .dark-badge{
