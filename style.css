@@ -153,8 +153,14 @@ a{
     z-index: 10;
 }
 
-.sticky-nav-icons{
-    margin-left: 0.75rem;
+.sticky-nav-icons img{
+    margin-left: 0.35rem;
+    opacity: 0.5;
+}
+
+.sticky-nav-icons img:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .sticky-nav-options{
