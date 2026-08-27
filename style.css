@@ -187,6 +187,11 @@ a{
     margin-top: 1rem;
 }
 
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .cards-container{
     display: flex;
     flex-wrap: wrap;
